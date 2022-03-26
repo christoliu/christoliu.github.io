@@ -1,94 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paper</title>
-    <link>https://hugo-paper.vercel.app/</link>
-    <description>Recent content on Paper</description>
+    <title>CHRISTOLIU</title>
+    <link>https://christoliu.github.io/</link>
+    <description>Recent content on CHRISTOLIU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Mar 2022 17:30:17 +0800</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <copyright>Copyright © 2022, Christopher Liu; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 26 Mar 2022 17:43:23 +0800</lastBuildDate><atom:link href="https://christoliu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Post 2</title>
-      <link>https://hugo-paper.vercel.app/post/my-post-2/</link>
-      <pubDate>Sat, 26 Mar 2022 17:30:17 +0800</pubDate>
+      <title>Read Me</title>
+      <link>https://christoliu.github.io/post/read-me/</link>
+      <pubDate>Sat, 26 Mar 2022 17:43:23 +0800</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/my-post-2/</guid>
-      <description></description>
+      <guid>https://christoliu.github.io/post/read-me/</guid>
+      <description>Paper Demo
+A simple, clean, flexible Hugo theme.
+⚡️ Fast | 🦋 Fluent | 🪀 Smooth
+  Links Product Hunt: producthunt.com/posts/hugo-paper
+Hugo themes: themes.gohugo.io/hugo-paper
+Overview Install Inside the folder of your Hugo project, run:
+git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper Open config.toml, change theme to &amp;quot;paper&amp;quot;:
+theme = &amp;#34;paper&amp;#34; For more information, please read the official guide of Hugo.
+Options Available options to config.toml:
+disqusShortname = &amp;#39;YOUR_DISQUS_SHORTNAME&amp;#39; # add disqus comments  [params]  disableHLJS = true # don&amp;#39;t use highlight.</description>
     </item>
     
     <item>
-      <title>My Post</title>
-      <link>https://hugo-paper.vercel.app/post/my-post/</link>
-      <pubDate>Sat, 26 Mar 2022 17:29:54 +0800</pubDate>
+      <title>About</title>
+      <link>https://christoliu.github.io/about/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/my-post/</guid>
-      <description></description>
+      <guid>https://christoliu.github.io/about/</guid>
+      <description>我是劉祖豪 I&amp;rsquo;m Tsu-Hao, Liu.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://hugo-paper.vercel.app/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <title>Archives</title>
+      <link>https://christoliu.github.io/archives/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/archives/</guid>
+      <guid>https://christoliu.github.io/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://hugo-paper.vercel.app/post/markdown-syntax/</link>
+      <link>https://christoliu.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/markdown-syntax/</guid>
+      <guid>https://christoliu.github.io/post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>https://hugo-paper.vercel.app/post/rich-content/</link>
+      <link>https://christoliu.github.io/post/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/rich-content/</guid>
+      <guid>https://christoliu.github.io/post/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Placeholder Text</title>
-      <link>https://hugo-paper.vercel.app/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugo-paper.vercel.app/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Math Typesetting</title>
-      <link>https://hugo-paper.vercel.app/post/math-typesetting/</link>
+      <link>https://christoliu.github.io/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/math-typesetting/</guid>
+      <guid>https://christoliu.github.io/post/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Emoji Support</title>
-      <link>https://hugo-paper.vercel.app/post/emoji-support/</link>
+      <link>https://christoliu.github.io/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hugo-paper.vercel.app/post/emoji-support/</guid>
+      <guid>https://christoliu.github.io/post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://hugo-paper.vercel.app/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugo-paper.vercel.app/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
     </item>
     
   </channel>

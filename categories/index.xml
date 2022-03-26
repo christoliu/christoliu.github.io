@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Paper</title>
-    <link>https://hugo-paper.vercel.app/categories/</link>
-    <description>Recent content in Categories on Paper</description>
+    <title>Categories on CHRISTOLIU</title>
+    <link>https://christoliu.github.io/categories/</link>
+    <description>Recent content in Categories on CHRISTOLIU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <copyright>Copyright © 2022, Christopher Liu; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://christoliu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
