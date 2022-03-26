@@ -36,6 +36,15 @@ disqusShortname = &amp;#39;YOUR_DISQUS_SHORTNAME&amp;#39; # add disqus comments 
     </item>
     
     <item>
+      <title>resume</title>
+      <link>https://christoliu.github.io/resume/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://christoliu.github.io/resume/</guid>
+      <description>My resume  我是劉祖豪 I&amp;rsquo;m Tsu-Hao, Liu.</description>
+    </item>
+    
+    <item>
       <title>Archives</title>
       <link>https://christoliu.github.io/archives/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
