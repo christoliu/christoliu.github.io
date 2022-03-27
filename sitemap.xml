@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://christoliu.github.io/</loc>
-    <lastmod>2022-03-26T17:43:23+08:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/post/</loc>
-    <lastmod>2022-03-26T17:43:23+08:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/post/read-me/</loc>
-    <lastmod>2022-03-26T17:43:23+08:00</lastmod>
-  </url><url>
     <loc>https://christoliu.github.io/about/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,54 +11,21 @@
     <loc>https://christoliu.github.io/archives/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://christoliu.github.io/</loc>
+    <lastmod>2021-06-26T17:43:23+08:00</lastmod>
+  </url><url>
+    <loc>https://christoliu.github.io/post/frontend_basic/</loc>
+    <lastmod>2021-06-26T17:43:23+08:00</lastmod>
+  </url><url>
+    <loc>https://christoliu.github.io/post/</loc>
+    <lastmod>2021-06-26T17:43:23+08:00</lastmod>
+  </url><url>
     <loc>https://christoliu.github.io/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/post/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/post/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://christoliu.github.io/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://christoliu.github.io/tags/index/</loc>
+  </url><url>
+    <loc>https://christoliu.github.io/series/</loc>
+  </url><url>
+    <loc>https://christoliu.github.io/tags/</loc>
   </url>
 </urlset>

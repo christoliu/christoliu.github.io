@@ -7,25 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright © 2022, Christopher Liu; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Mar 2022 17:43:23 +0800</lastBuildDate><atom:link href="https://christoliu.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Read Me</title>
-      <link>https://christoliu.github.io/post/read-me/</link>
-      <pubDate>Sat, 26 Mar 2022 17:43:23 +0800</pubDate>
-      
-      <guid>https://christoliu.github.io/post/read-me/</guid>
-      <description>Paper Demo
-A simple, clean, flexible Hugo theme.
-⚡️ Fast | 🦋 Fluent | 🪀 Smooth
-  Links Product Hunt: producthunt.com/posts/hugo-paper
-Hugo themes: themes.gohugo.io/hugo-paper
-Overview Install Inside the folder of your Hugo project, run:
-git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper Open config.toml, change theme to &amp;quot;paper&amp;quot;:
-theme = &amp;#34;paper&amp;#34; For more information, please read the official guide of Hugo.
-Options Available options to config.toml:
-disqusShortname = &amp;#39;YOUR_DISQUS_SHORTNAME&amp;#39; # add disqus comments  [params]  disableHLJS = true # don&amp;#39;t use highlight.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 26 Jun 2021 17:43:23 +0800</lastBuildDate><atom:link href="https://christoliu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://christoliu.github.io/about/</link>
@@ -54,39 +36,16 @@ disqusShortname = &amp;#39;YOUR_DISQUS_SHORTNAME&amp;#39; # add disqus comments 
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://christoliu.github.io/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Frontend Note</title>
+      <link>https://christoliu.github.io/post/frontend_basic/</link>
+      <pubDate>Sat, 26 Jun 2021 17:43:23 +0800</pubDate>
       
-      <guid>https://christoliu.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://christoliu.github.io/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://christoliu.github.io/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://christoliu.github.io/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://christoliu.github.io/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://christoliu.github.io/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://christoliu.github.io/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>https://christoliu.github.io/post/frontend_basic/</guid>
+      <description>網頁Basic tags: Note web 記事 Web 入門 FTP 程式 字型選擇
+HTML 包含了一系列的元素(Elements)，而元素包含了標籤(Tags)與內容(Content)、屬性(Attribute)。
+&amp;lt;p class=&amp;#34;note&amp;#34;&amp;gt;My cat is very grumpy.&amp;lt;/p&amp;gt; Element：&amp;lt;p class=&amp;ldquo;note&amp;rdquo;&amp;gt;My cat is very grumpy&amp;lt;/p&amp;gt; Tags：&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; (Opening tag / Closing tag) Contant：My cat is very grumpy. Attribute：class
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1&amp;gt;&amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;&amp;lt;a&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; :::info &amp;lt;!DOCTYPE html&amp;gt;：文件類型（doctype）HTML5 &amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;：&amp;lt;html&amp;gt; 元素，又被視為根元素（root element） &amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;：&amp;lt;head&amp;gt; 元素，裡面放的是你想涵括的重要資訊，但不會顯示於網頁瀏覽者眼前的 &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;：&amp;lt;body&amp;gt; 元素，包含了所有會顯示於網頁瀏覽者眼前的內容 &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; — 呈現於網頁瀏覽者眼前的網頁標題。 &amp;lt;meta charset=&amp;ldquo;utf-8&amp;rdquo;&amp;gt;：指定文件使用utf-8這種字元編碼 :::
+實際用法  區塊元素(display:block)  默認為block h1、P、div   行內元素(display:inline)  默認為inline a、span   Input field &amp;lt;input type=&amp;#34;text&amp;#34; class=&amp;#34;txtAnser&amp;#34; placeholder=&amp;#34;Please input name&amp;#34;&amp;gt;  Drop-down menu &amp;lt;select class=&amp;#34;lest&amp;#34;&amp;gt; &amp;lt;option value=&amp;#34;TP_city&amp;#34;&amp;gt;台北市&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;KS_city&amp;#34;&amp;gt;高雄市&amp;lt;/option&amp;gt; &amp;lt;/select&amp;gt;  span  主要是用作行內(inline)容器，本身沒有意義 方便對某段文字進行css排版、JS操作  &amp;lt;p&amp;gt;My mother has &amp;lt;span class=&amp;#34;highlight&amp;#34;&amp;gt;blue&amp;lt;/span&amp;gt; eyes.</description>
     </item>
     
   </channel>
