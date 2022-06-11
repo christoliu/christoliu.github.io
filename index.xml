@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CHRISTOLIU</title>
-    <link>https://christoliu.github.io/</link>
+    <link>https://christo.life/</link>
     <description>Recent content on CHRISTOLIU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright © 2022, Christopher Liu; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 27 May 2022 22:32:56 +0800</lastBuildDate><atom:link href="https://christoliu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 May 2022 22:32:56 +0800</lastBuildDate><atom:link href="https://christo.life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hexschool</title>
-      <link>https://christoliu.github.io/post/hexschool/</link>
+      <link>https://christo.life/post/hexschool/</link>
       <pubDate>Fri, 27 May 2022 22:32:56 +0800</pubDate>
       
-      <guid>https://christoliu.github.io/post/hexschool/</guid>
+      <guid>https://christo.life/post/hexschool/</guid>
       <description>六角學院 - 前端基礎 HTML CSS JS 筆記 切版作業一</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://christoliu.github.io/about/</link>
+      <link>https://christo.life/about/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://christoliu.github.io/about/</guid>
+      <guid>https://christo.life/about/</guid>
       <description>我是劉祖豪 I&amp;rsquo;m Tsu-Hao, Liu.</description>
     </item>
     
     <item>
       <title>resume</title>
-      <link>https://christoliu.github.io/resume/</link>
+      <link>https://christo.life/resume/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://christoliu.github.io/resume/</guid>
+      <guid>https://christo.life/resume/</guid>
       <description>My resume  我是劉祖豪 I&amp;rsquo;m Tsu-Hao, Liu.</description>
     </item>
     
     <item>
       <title>Archives</title>
-      <link>https://christoliu.github.io/archives/</link>
+      <link>https://christo.life/archives/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://christoliu.github.io/archives/</guid>
+      <guid>https://christo.life/archives/</guid>
       <description></description>
     </item>
     

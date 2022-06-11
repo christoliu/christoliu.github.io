@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on CHRISTOLIU</title>
-    <link>https://christoliu.github.io/categories/</link>
+    <link>https://christo.life/categories/</link>
     <description>Recent content in Categories on CHRISTOLIU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <copyright>Copyright © 2022, Christopher Liu; all rights reserved.</copyright><atom:link href="https://christoliu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2022, Christopher Liu; all rights reserved.</copyright><atom:link href="https://christo.life/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
