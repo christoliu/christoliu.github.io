@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on CHRISTOLIU</title>
-    <link>https://christo.life/tags/</link>
-    <description>Recent content in Tags on CHRISTOLIU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Tags on Christo blog</title>
+    <link>https://hihicruzto.com/tags/</link>
+    <description>Recent content in Tags on Christo blog</description>
+    <generator>Hugo -- 0.146.7</generator>
     <language>zh-tw</language>
-    <copyright>Copyright © 2022, Christopher Liu; all rights reserved.</copyright><atom:link href="https://christo.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hihicruzto.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Trip</title>
+      <link>https://hihicruzto.com/tags/2025-trip/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://hihicruzto.com/tags/2025-trip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Calgary</title>
+      <link>https://hihicruzto.com/tags/calgary/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://hihicruzto.com/tags/calgary/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Canada</title>
+      <link>https://hihicruzto.com/tags/canada/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://hihicruzto.com/tags/canada/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Japan</title>
+      <link>https://hihicruzto.com/tags/japan/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://hihicruzto.com/tags/japan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nagoya</title>
+      <link>https://hihicruzto.com/tags/nagoya/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://hihicruzto.com/tags/nagoya/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vancouver</title>
+      <link>https://hihicruzto.com/tags/vancouver/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://hihicruzto.com/tags/vancouver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yellowknife</title>
+      <link>https://hihicruzto.com/tags/yellowknife/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://hihicruzto.com/tags/yellowknife/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

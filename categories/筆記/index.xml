@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>筆記 on 我的 Hugo 部落格</title>
+    <link>http://localhost:8080/categories/%E7%AD%86%E8%A8%98/</link>
+    <description>Recent content in 筆記 on 我的 Hugo 部落格</description>
+    <generator>Hugo -- 0.146.7</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 25 Apr 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:8080/categories/%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇文章</title>
+      <link>http://localhost:8080/posts/my-first-post/</link>
+      <pubDate>Fri, 25 Apr 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/my-first-post/</guid>
+      <description>&lt;p&gt;這是我的第一篇 Hugo 文章！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

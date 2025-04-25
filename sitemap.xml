@@ -2,30 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://christo.life/</loc>
-    <lastmod>2022-05-27T22:32:56+08:00</lastmod>
+    <loc>https://hihicruzto.com/about/</loc>
+    <lastmod>2025-04-25T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://christo.life/post/hexschool/</loc>
-    <lastmod>2022-05-27T22:32:56+08:00</lastmod>
+    <loc>https://hihicruzto.com/posts/hugo-blog-from-scratch/</loc>
+    <lastmod>2025-04-25T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://christo.life/post/</loc>
-    <lastmod>2022-05-27T22:32:56+08:00</lastmod>
+    <loc>https://hihicruzto.com/categories/</loc>
+    <lastmod>2025-04-25T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://christo.life/about/</loc>
-    <lastmod>2022-02-14T00:00:00+00:00</lastmod>
+    <loc>https://hihicruzto.com/categories/note/</loc>
+    <lastmod>2025-04-25T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://christo.life/resume/</loc>
-    <lastmod>2022-02-14T00:00:00+00:00</lastmod>
+    <loc>https://hihicruzto.com/posts/</loc>
+    <lastmod>2025-04-25T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://christo.life/archives/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <loc>https://hihicruzto.com/travel-posts/2025-canada/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://christo.life/categories/</loc>
+    <loc>https://hihicruzto.com/travel-posts/2025-nagoya/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://christo.life/tags/index/</loc>
+    <loc>https://hihicruzto.com/tags/2025-trip/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://christo.life/series/</loc>
+    <loc>https://hihicruzto.com/tags/calgary/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://christo.life/tags/</loc>
+    <loc>https://hihicruzto.com/tags/canada/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hihicruzto.com/tags/japan/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hihicruzto.com/tags/nagoya/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hihicruzto.com/tags/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hihicruzto.com/travel-posts/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hihicruzto.com/categories/trip/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hihicruzto.com/tags/vancouver/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hihicruzto.com/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hihicruzto.com/tags/yellowknife/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url>
 </urlset>
