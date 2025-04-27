@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Building a Hugo Blog from Scratch | Christo blog</title>
+<title>Building a Hugo Blog from Scratch | hihicruzto</title>
 <meta name="keywords" content="">
 <meta name="description" content="1. Hugo installation
 # Using hugo on Rocky Linux
@@ -165,7 +165,7 @@ hugo list all to check all routes
 
     </style>
 </noscript><meta property="og:url" content="https://hihicruzto.com/posts/hugo-blog-from-scratch/">
-  <meta property="og:site_name" content="Christo blog">
+  <meta property="og:site_name" content="hihicruzto">
   <meta property="og:title" content="Building a Hugo Blog from Scratch">
   <meta property="og:description" content="1. Hugo installation # Using hugo on Rocky Linux # download latest hugo from github release (dnf can not find the .pem file) wget https://github.com/gohugoio/hugo/releases/download/v0.146.7/hugo_extended_0.146.7_linux-amd64.tar.gz tar -xvzf hugo_extended_0.146.7_linux-amd64.tar.gz sudo mv hugo /usr/local/bin/ # check hugo version 2. Create a new Hugo project hugo new site ${project_name} cd ${project_name} 3. Install theme (PaperMod, manual download) # or download latest release from github(code &gt; download zip) wget https://github.com/adityatelange/hugo-PaperMod/archive/refs/heads/master.zip unzip master.zip mv hugo-PaperMod-master themes/PaperMod set theme in hugo.toml baseURL = &#39;https://example.org/&#39; languageCode = &#39;zh-tw&#39; title = &#39;my blog&#39; theme = &#34;PaperMod&#34; 4. Create homepage, about me and posts # homepage hugo new _index.md # about me hugo new about.md # normal post hugo new posts/my-first-post.md # trip post hugo new travel-posts/first-trip.md 5. Modify frontmatter of post --- title: &#34;post no. 1&#34; date: 2025-01-01 # if set true then the post will not be published draft: false --- First Post! 6. Add post and categories on navbar add post to navbar [[menu.main]] name = &#34;首頁&#34; url = &#34;/&#34; weight = 1 [[menu.main]] name = &#34;文章&#34; url = &#34;/posts/&#34; weight = 2 add categories to navbar # in post&#39;s frontmatter --- title: &#34;trip to Taiwan&#34; date: 2025-04-25 draft: false categories: [&#34;travel&#34;] --- [menu] [[menu.main]] name = &#34;首頁&#34; url = &#34;/&#34; weight = 1 [[menu.main]] name = &#34;文章&#34; url = &#34;/posts/&#34; weight = 2 [[menu.main]] name = &#34;文章分類&#34; url = &#34;/categories/&#34; weight = 3 7. Enable profile mode [params] defaultTheme = &#34;auto&#34; ShowShareButtons = true ShowReadingTime = true ShowCodeCopyButtons = true [params.homeInfoParams] Title = &#34;Hi 👋&#34; Content = &#34;歡迎來到我的 Hugo 個人部落格&#34; [params.profileMode] enabled = true title = &#34;Hi 👋&#34; subtitle = &#34;歡迎來到我的部落格&#34; imageUrl = &#34;images/avatar.png&#34; imageTitle = &#34;我的頭像&#34; buttons = [ { name = &#34;文章&#34;, url = &#34;/posts/&#34; }, { name = &#34;關於我&#34;, url = &#34;/about/&#34; } ] 8. Run hugo server # D for includes drafts hugo server -D 9. Notes Don’t move .md file manually, will cause routing error. If you want to move, please use hugo new to create and paste content. hugo list all to check all routes ">
   <meta property="og:locale" content="zh-tw">
@@ -328,7 +328,7 @@ hugo list all to check all routes
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Christo blog",
+    "name": "hihicruzto",
     "logo": {
       "@type": "ImageObject",
       "url": "https://hihicruzto.com/favicon.ico"
@@ -353,7 +353,7 @@ hugo list all to check all routes
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://hihicruzto.com/" accesskey="h" title="Christo blog (Alt + H)">Christo blog</a>
+            <a href="https://hihicruzto.com/" accesskey="h" title="hihicruzto (Alt + H)">hihicruzto</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -399,7 +399,7 @@ hugo list all to check all routes
     <h1 class="post-title entry-hint-parent">
       Building a Hugo Blog from Scratch
     </h1>
-    <div class="post-meta"><span title='2025-04-25 10:00:00 +0800 +0800'>April 25, 2025</span>&nbsp;·&nbsp;2 min
+    <div class="post-meta"><span title='2025-04-25 10:00:00 +0800 CST'>April 25, 2025</span>&nbsp;·&nbsp;2 min
 
 </div>
   </header> 
@@ -593,7 +593,7 @@ hugo list all to check all routes
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://hihicruzto.com/">Christo blog</a></span> · 
+        <span>&copy; 2025 <a href="https://hihicruzto.com/">hihicruzto</a></span> · 
 
     <span>
         Powered by
