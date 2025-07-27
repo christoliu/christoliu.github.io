@@ -1,0 +1,9 @@
+.titlebox {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.75em 1em;
+  background-color: #f8f8f8;
+  font-weight: bold;
+  margin: 1em 0;
+}
+

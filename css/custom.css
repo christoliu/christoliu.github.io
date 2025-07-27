@@ -1,0 +1,15 @@
+.titlebox {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* PaperMod 的 dark mode class 是 .dark */
+.dark .titlebox {
+  border-color: #fff;
+  color: #fff;
+}
