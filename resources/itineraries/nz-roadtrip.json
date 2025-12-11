@@ -1,0 +1,29 @@
+{
+  "title": "New Zealand Road Trip",
+  "coverImage": "https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=1000&q=80",
+  "startDate": "2025-11-10",
+  "endDate": "2025-11-20",
+  "days": [
+    {
+      "day": 1,
+      "title": "Arrival in Queenstown",
+      "description": "Pick up campervan. Fergburger for dinner.",
+      "places": ["Queenstown", "Lake Wakatipu"],
+      "image": "https://images.unsplash.com/photo-1507699622177-388894d34791?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "day": 2,
+      "title": "Milford Sound",
+      "description": "The scenic drive to Milford Sound and a boat cruise to see the waterfalls and seals.",
+      "places": ["Te Anau", "Milford Sound"],
+      "image": "https://images.unsplash.com/photo-1574883907406-38374d82f716?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "day": 3,
+      "title": "Wanaka",
+      "description": "Hiking Roy's Peak for the famous view. Visiting the lonely tree.",
+      "places": ["Lake Wanaka", "Roy's Peak"],
+      "image": "https://images.unsplash.com/photo-1627918344793-162985df852c?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "TravelJournal",
+  "description": "A personal travel log and itinerary manager designed for static deployment on GitHub Pages.",
+  "requestFramePermissions": []
+}

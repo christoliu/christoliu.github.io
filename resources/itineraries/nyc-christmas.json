@@ -1,0 +1,29 @@
+{
+  "title": "NYC Christmas Magic",
+  "coverImage": "https://images.unsplash.com/photo-1496442226666-8d4a0e62e6e9?auto=format&fit=crop&w=1000&q=80",
+  "startDate": "2025-12-20",
+  "endDate": "2025-12-26",
+  "days": [
+    {
+      "day": 1,
+      "title": "Rockefeller Center",
+      "description": "Seeing the giant tree and skating at the rink. Evening walk down 5th Avenue to see window displays.",
+      "places": ["Rockefeller Center", "St. Patrick's Cathedral", "Saks Fifth Avenue"],
+      "image": "https://images.unsplash.com/photo-1546705471-e23359d9f5da?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "day": 2,
+      "title": "Central Park & Broadway",
+      "description": "Morning snow walk in Central Park. Evening show: Hamilton or The Lion King.",
+      "places": ["Central Park", "Times Square", "Broadway Theatre"],
+      "image": "https://images.unsplash.com/photo-1479660656269-197ebb83b540?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "day": 3,
+      "title": "Brooklyn Bridge",
+      "description": "Walking across the bridge into Dumbo for the classic photo spot and pizza.",
+      "places": ["Brooklyn Bridge", "Dumbo", "Juliana's Pizza"],
+      "image": "https://images.unsplash.com/photo-1518596647285-06c88f7b7891?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
