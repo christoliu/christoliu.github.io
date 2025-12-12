@@ -10,7 +10,7 @@ export const DetailView: React.FC<{ type: 'log' | 'itinerary' }> = ({ type }) =>
   const { slug } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
-  
+
   const [data, setData] = useState<{ meta: any; content: any; isJson: boolean } | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -25,16 +25,16 @@ export const DetailView: React.FC<{ type: 'log' | 'itinerary' }> = ({ type }) =>
           const manifest = await fetchManifest();
           const collection = type === 'log' ? manifest.logs : manifest.itineraries;
           const found = collection.find(item => item.slug === slug);
-          
+
           if (found) {
             path = found.path;
             itemMeta = found; // Store meta to use if file content doesn't have it
           } else {
             // Fallback guess if manifest lookup fails or item not found
-            path = `resources/${type === 'log' ? 'logs' : 'itineraries'}/${slug}.${type === 'itinerary' ? 'json' : 'md'}`;
+            path = `/${type === 'log' ? 'logs' : 'itineraries'}/${slug}.${type === 'itinerary' ? 'json' : 'md'}`;
           }
         } catch (e) {
-          console.warn("Manifest lookup failed during detail load", e);
+          console.warn('Manifest lookup failed during detail load', e);
         }
       }
 
@@ -47,7 +47,9 @@ export const DetailView: React.FC<{ type: 'log' | 'itinerary' }> = ({ type }) =>
         setData({ ...result, meta: finalMeta });
       } catch (err) {
         console.error(err);
-        setError("Could not load content. Check if file exists in resources folder and manifest.json is correct.");
+        setError(
+          'Could not load content. Check if file exists under /logs or /itineraries and content-manifest.json paths are correct.'
+        );
       }
     };
 
@@ -58,7 +60,9 @@ export const DetailView: React.FC<{ type: 'log' | 'itinerary' }> = ({ type }) =>
     return (
       <div className="p-8 text-center">
         <p className="text-red-500 mb-4">{error}</p>
-        <button onClick={() => navigate(-1)} className="text-indigo-600 underline">Go Back</button>
+        <button onClick={() => navigate(-1)} className="text-indigo-600 underline">
+          Go Back
+        </button>
       </div>
     );
   }
@@ -71,13 +75,9 @@ export const DetailView: React.FC<{ type: 'log' | 'itinerary' }> = ({ type }) =>
     <div className="max-w-3xl mx-auto bg-white min-h-screen shadow-sm pb-20">
       {/* Hero Header */}
       <div className="relative h-64 md:h-96 w-full bg-slate-200">
-        <ImageWithFallback 
-          src={meta.coverImage || meta.image} 
-          alt={meta.title}
-          className="w-full h-full"
-        />
+        <ImageWithFallback src={meta.coverImage || meta.image} alt={meta.title} className="w-full h-full" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent pointer-events-none" />
-        <button 
+        <button
           onClick={() => navigate(-1)}
           className="absolute top-4 left-4 p-2 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/40 transition z-10"
         >
@@ -86,26 +86,28 @@ export const DetailView: React.FC<{ type: 'log' | 'itinerary' }> = ({ type }) =>
         <div className="absolute bottom-0 left-0 w-full p-6 md:p-8 text-white z-10">
           <h1 className="text-3xl md:text-5xl font-bold mb-2 shadow-sm">{meta.title}</h1>
           <div className="flex flex-wrap items-center gap-4 text-sm md:text-base opacity-90">
-             {meta.date && (
-               <span className="flex items-center"><Calendar className="w-4 h-4 mr-1.5"/> {meta.date}</span>
-             )}
-             {meta.location && (
-               <span className="flex items-center"><MapPin className="w-4 h-4 mr-1.5"/> {meta.location}</span>
-             )}
-             {meta.duration && (
-               <span className="flex items-center"><Clock className="w-4 h-4 mr-1.5"/> {meta.duration}</span>
-             )}
+            {meta.date && (
+              <span className="flex items-center">
+                <Calendar className="w-4 h-4 mr-1.5" /> {meta.date}
+              </span>
+            )}
+            {meta.location && (
+              <span className="flex items-center">
+                <MapPin className="w-4 h-4 mr-1.5" /> {meta.location}
+              </span>
+            )}
+            {meta.duration && (
+              <span className="flex items-center">
+                <Clock className="w-4 h-4 mr-1.5" /> {meta.duration}
+              </span>
+            )}
           </div>
         </div>
       </div>
 
       {/* Content Body */}
       <div className="px-6 py-8 md:px-10">
-        {isJson ? (
-          <ItineraryRenderer data={content as ItineraryJson} />
-        ) : (
-          <MarkdownView content={content as string} />
-        )}
+        {isJson ? <ItineraryRenderer data={content as ItineraryJson} /> : <MarkdownView content={content as string} />}
       </div>
     </div>
   );
@@ -123,17 +125,15 @@ const ItineraryRenderer: React.FC<{ data: ItineraryJson }> = ({ data }) => {
           <div className="absolute -left-[41px] md:-left-[57px] top-0 w-6 h-6 rounded-full bg-indigo-600 border-4 border-white shadow-sm flex items-center justify-center text-xs font-bold text-white">
             {day.day}
           </div>
-          
-          <h2 className="text-2xl font-bold text-slate-800 mb-2">Day {day.day}: {day.title}</h2>
+
+          <h2 className="text-2xl font-bold text-slate-800 mb-2">
+            Day {day.day}: {day.title}
+          </h2>
           <p className="text-slate-600 mb-4">{day.description}</p>
-          
+
           {day.image && (
             <div className="h-48 md:h-64 mb-4 rounded-xl overflow-hidden shadow-sm">
-              <ImageWithFallback 
-                src={day.image} 
-                alt={day.title} 
-                className="w-full h-full" 
-              />
+              <ImageWithFallback src={day.image} alt={day.title} className="w-full h-full" />
             </div>
           )}
 

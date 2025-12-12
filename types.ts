@@ -14,7 +14,7 @@ export interface ContentItem {
   id: string;
   type: ResourceType;
   slug: string; // Filename without extension
-  path: string; // Full path in resources folder e.g. "resources/logs/tokyo.md"
+  path: string; // Full path in resources folder e.g. "public/logs/tokyo.md"
   meta: FrontMatter;
   content?: string; // The raw markdown or JSON content
 }
@@ -35,7 +35,7 @@ export interface ItineraryJson {
   days: ItineraryDay[];
 }
 
-// The structure of the resources/manifest.json file
+// The structure of the /public/content-manifest.json file
 export interface Manifest {
   logs: {
     slug: string;
