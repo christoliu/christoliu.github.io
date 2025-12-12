@@ -1,0 +1,151 @@
+{
+  "logs": [
+    {
+      "slug": "kyoto-temples",
+      "path": "/logs/kyoto-temples.md",
+      "title": "Walking through Kyoto Temples",
+      "date": "2023-11-20",
+      "tags": [
+        "Japan",
+        "Hiking",
+        "Culture",
+        "Leeeeeeee",
+        "loooooooo",
+        "lfffff"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "taipei",
+      "path": "/logs/taipei.md",
+      "title": "Walking through Taipei",
+      "date": "2023-11-20",
+      "tags": [
+        "Taiwan",
+        "Hiking",
+        "Culture",
+        "Leeeeeeee",
+        "loooooooo",
+        "lfffff"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "osaka-ramen",
+      "path": "/logs/osaka-ramen.md",
+      "title": "The Quest for Best Ramen in Osaka",
+      "date": "2022-10-15",
+      "tags": [
+        "Food",
+        "Japan",
+        "City"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1591814468924-caf88d1232e1?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "swiss-alps",
+      "path": "/logs/swiss-alps.md",
+      "title": "Hiking the Swiss Alps",
+      "date": "2021-07-20",
+      "tags": [
+        "Nature",
+        "Hiking",
+        "Europe"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1531310197839-ccf54634509e?auto=format&fit=crop&w=1000&q=80"
+    }
+  ],
+  "itineraries": [
+    {
+      "slug": "peru-adventure",
+      "path": "/itineraries/peru-adventure.json",
+      "title": "Inca Trail Adventure",
+      "date": "2026-10-01",
+      "coverImage": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "iceland-summer",
+      "path": "/itineraries/iceland-summer.json",
+      "title": "Iceland Summer Roadtrip",
+      "date": "2026-07-10",
+      "coverImage": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "kyoto-sakura-2026",
+      "path": "/itineraries/kyoto-sakura-2026.json",
+      "title": "Kyoto Sakura Return",
+      "date": "2026-04-02",
+      "coverImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "maldives-relax",
+      "path": "/itineraries/maldives-relax.json",
+      "title": "Maldives Relaxation",
+      "date": "2026-01-15",
+      "coverImage": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "nyc-christmas",
+      "path": "/itineraries/nyc-christmas.json",
+      "title": "NYC Christmas Magic",
+      "date": "2025-12-20",
+      "coverImage": "https://images.unsplash.com/photo-1496442226666-8d4a0e62e6e9?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "nz-roadtrip",
+      "path": "/itineraries/nz-roadtrip.json",
+      "title": "New Zealand Road Trip",
+      "date": "2025-11-10",
+      "coverImage": "https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "paris-summer",
+      "path": "/itineraries/paris-summer.json",
+      "title": "Paris Olympics Summer",
+      "date": "2025-07-26",
+      "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "hokkaido-winter",
+      "path": "/itineraries/hokkaido-winter.json",
+      "title": "Hokkaido Powder Snow",
+      "date": "2025-02-10",
+      "coverImage": "https://images.unsplash.com/photo-1542931287-023b922fa89b?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "weekend-getaway",
+      "path": "/itineraries/weekend-getaway.md",
+      "title": "Weekend in Yilan",
+      "date": "2024-05-20",
+      "coverImage": "/images/camera.svg"
+    },
+    {
+      "slug": "tokyo-adventure",
+      "path": "/itineraries/tokyo-adventure.json",
+      "title": "7 Days in Tokyo",
+      "date": "2024-04-10",
+      "coverImage": "https://www.tw.kayak.com/rimg/dimg/dynamic/60/2018/02/d1ff7027651e656bbd26e08babbf19e5.webp"
+    },
+    {
+      "slug": "bangkok-express",
+      "path": "/itineraries/bangkok-express.json",
+      "title": "Bangkok Food Express",
+      "date": "2024-01-15",
+      "coverImage": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "london-edinburgh",
+      "path": "/itineraries/london-edinburgh.md",
+      "title": "UK Tale of Two Cities",
+      "date": "2023-09-01",
+      "coverImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "slug": "seoul-shopping",
+      "path": "/itineraries/seoul-shopping.json",
+      "title": "Seoul Shopping Weekend",
+      "date": "2023-05-05",
+      "coverImage": "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1000&q=80"
+    }
+  ]
+}

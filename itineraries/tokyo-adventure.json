@@ -1,0 +1,29 @@
+{
+  "title": "7 Days in Tokyo",
+  "coverImage": "https://www.tw.kayak.com/rimg/dimg/dynamic/60/2018/02/d1ff7027651e656bbd26e08babbf19e5.webp",
+  "startDate": "2024-04-10",
+  "endDate": "2024-04-17",
+  "days": [
+    {
+      "day": 1,
+      "title": "Arrival & Shinjuku",
+      "description": "Landing in Narita, taking the N'EX to Shinjuku. Checking into the hotel and exploring Omoide Yokocho.",
+      "places": ["Narita Airport", "Shinjuku Station", "Omoide Yokocho", "Golden Gai"],
+      "image": "https://resources.matcha-jp.com/resize/720x2000/2019/01/23-69987.webp"
+    },
+    {
+      "day": 2,
+      "title": "Shibuya & Harajuku",
+      "description": "Morning coffee, then walking through Yoyogi park to Meiji Shrine. Shopping in Harajuku and seeing the Scramble Crossing.",
+      "places": ["Meiji Shrine", "Yoyogi Park", "Takeshita Street", "Shibuya Crossing"],
+      "image": "https://www.datocms-assets.com/101439/1702617733-shibuya-sky.webp?auto=format&fit=max&w=1200"
+    },
+    {
+      "day": 3,
+      "title": "Asakusa & Skytree",
+      "description": "Traditional vibes in Asakusa followed by futuristic views from the Skytree.",
+      "places": ["Senso-ji Temple", "Nakamise Street", "Tokyo Skytree", "Sumida Park"],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi3nXD3ROAcXSY3qDODFrMesYkOX13OtAeww&s"
+    }
+  ]
+}

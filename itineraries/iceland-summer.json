@@ -1,0 +1,29 @@
+{
+  "title": "Iceland Summer Roadtrip",
+  "coverImage": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1000&q=80",
+  "startDate": "2026-07-10",
+  "endDate": "2026-07-20",
+  "days": [
+    {
+      "day": 1,
+      "title": "Arrival & Blue Lagoon",
+      "description": "Landing in Keflavik and immediately heading to relax in the geothermal milky blue waters.",
+      "places": ["Keflavik Airport", "Blue Lagoon", "Reykjavik"],
+      "image": "https://images.unsplash.com/photo-1520256862855-398228c41684?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "day": 2,
+      "title": "The Golden Circle",
+      "description": "Driving the classic route to see the continental divide, exploding geysers, and the massive golden waterfall.",
+      "places": ["Thingvellir National Park", "Geysir", "Gullfoss Waterfall"],
+      "image": "https://images.unsplash.com/photo-1490079027102-cd2612b70ca4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "day": 3,
+      "title": "South Coast Waterfalls",
+      "description": "Chasing waterfalls along the ring road. Walking behind Seljalandsfoss and seeing the black sand beach.",
+      "places": ["Seljalandsfoss", "Skogafoss", "Reynisfjara Beach"],
+      "image": "https://images.unsplash.com/photo-1465220183275-1faa80a6f787?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
