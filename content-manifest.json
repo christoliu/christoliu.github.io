@@ -1,6 +1,17 @@
 {
   "logs": [
     {
+      "slug": "2023-hk",
+      "path": "logs/2023-hk.md",
+      "title": "2023/06 香港",
+      "date": "2023-06-10",
+      "tags": [
+        "Hong Kong",
+        "Asia"
+      ],
+      "coverImage": ""
+    },
+    {
       "slug": "osaka-ramen",
       "path": "logs/osaka-ramen.md",
       "title": "The Quest for Best Ramen in Osaka",
