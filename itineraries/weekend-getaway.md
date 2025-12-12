@@ -1,7 +1,7 @@
 ---
 title: Weekend in Yilan
 date: 2024-05-20
-coverImage: /images/camera.svg
+coverImage: images/camera.svg
 duration: 2 Days
 location: Yilan, Taiwan
 ---
