@@ -1,24 +1,31 @@
+# Node.js dependencies
+node_modules/
+
+# Vite build output
+dist/
+.vite/
+
+# Optional: lock files（若你用 npm，可保留 package-lock.json）
+# yarn.lock
+# pnpm-lock.yaml
+
+# Environment variables（目前你沒用，但保留預防未來需要）
+.env
+.env.local
+.env.*.local
+
 # Logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Editor settings
+.vscode/
+.idea/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# OS / misc
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Public build cache (if exists)
+*.cache

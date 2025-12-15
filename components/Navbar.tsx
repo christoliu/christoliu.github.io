@@ -6,10 +6,8 @@ import clsx from 'clsx';
 export const Navbar: React.FC = () => {
   const navItemClass = ({ isActive }: { isActive: boolean }) =>
     clsx(
-      "flex flex-col md:flex-row items-center justify-center px-4 py-2 md:py-1 rounded-lg transition-all duration-200",
-      isActive 
-        ? "text-indigo-600 bg-indigo-50 font-bold" 
-        : "text-slate-500 hover:text-indigo-500 hover:bg-slate-50"
+      'flex flex-col md:flex-row items-center justify-center px-4 py-2 md:py-1 rounded-lg transition-all duration-200',
+      isActive ? 'text-indigo-600 bg-indigo-50 font-bold' : 'text-slate-500 hover:text-indigo-500 hover:bg-slate-50'
     );
 
   return (
@@ -21,13 +19,13 @@ export const Navbar: React.FC = () => {
       */}
       <div className="max-w-5xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Brand Logo - Clickable to About Page */}
-        <Link 
-          to="/about" 
+        <Link
+          to="/about"
           className="hidden md:flex items-center gap-2 font-bold text-xl text-slate-800 hover:text-indigo-600 transition-colors"
           title="About Me"
         >
           <Compass className="w-6 h-6 text-indigo-600" />
-          <span>TravelJournal</span>
+          <span>Journey</span>
         </Link>
 
         {/* Mobile View - Top Bar Title (Optional, if you want it visible on mobile top) */}
@@ -38,7 +36,7 @@ export const Navbar: React.FC = () => {
             <Map className="w-6 h-6 md:w-5 md:h-5 md:mr-2" />
             <span className="text-xs md:text-sm">Itineraries</span>
           </NavLink>
-          
+
           <NavLink to="/logs" className={navItemClass}>
             <BookOpen className="w-6 h-6 md:w-5 md:h-5 md:mr-2" />
             <span className="text-xs md:text-sm">Logs</span>

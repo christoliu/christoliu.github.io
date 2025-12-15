@@ -3,33 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Journal</title>
+    <title>Penny & Christo</title>
     <meta name="description" content="My Travel Adventures and Plans" />
-    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- PWA -->
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#0f172a" />
+
+    <!-- Tailwind CDN（可用，但建議之後改成本地 build） -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
-      /* Smooth scrolling for the whole app */
-      html { scroll-behavior: smooth; }
-      body { background-color: #f8fafc; }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #f8fafc;
+      }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
-    "react/": "https://aistudiocdn.com/react@^19.2.1/",
-    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
-    "clsx": "https://aistudiocdn.com/clsx@^2.1.1"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+  </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>

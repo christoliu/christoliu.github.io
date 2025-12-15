@@ -1,6 +1,6 @@
 {
-  "short_name": "TravelJournal",
-  "name": "My Travel Journal",
+  "short_name": "Penny & Christo",
+  "name": "Our Travel Journal",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/201/201623.png",
@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/#/",
   "display": "standalone",
   "theme_color": "#0f172a",
   "background_color": "#f8fafc"

@@ -4,17 +4,31 @@
   "private": true,
   "description": "A PWA travel journal that updates via file system.",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "refresh": "node scripts/generate-manifest.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "refresh": "node scripts/generate-manifest.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.556.0",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "react-router-dom": "^7.10.1",
     "react-markdown": "^10.1.0",
-    "lucide-react": "^0.556.0",
-    "clsx": "^2.1.1",
+    "react-router-dom": "^7.10.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
     "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "gh-pages": "^6.2.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
   }
 }
